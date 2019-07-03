@@ -1,3 +1,8 @@
+import sys
+import platform
+import os
+from parse import parseChars
+from parse import harshChars
 def Speak(words):
     #print "Speaking"
     if "win32" in sys.platform and '10' not in platform.release():
